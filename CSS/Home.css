@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Newake';
+    src: url(./Fonts/Newake-Font-Demo.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Newake";
+    color: white;
+    background-color:#141619;
+    min-height: 2000px;
+}
+
+/* Auto Slide Image */
+.banner {
+    width: 100%;
+    height: 1500px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .slider {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 30s linear infinite;
+    z-index: 2;
+}
+
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateX(-8deg) rotateY(0deg);
+    }to {
+        transform: perspective(1000px) rotateX(-8deg) rotateY(360deg);
+    }
+}
+
+.banner .slider .item {
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+    translateZ(570px);
+}
+
+.banner .slider .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 7px 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Picverse Logo */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    margin-top: -1650px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    height: 630px;
+    width: 700px;
+    text-align: center;
+    /* background-image: url('./glow-bg.svg'), url('./Picverse\ Community\ Emblem.png'); */
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.content .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+    margin-bottom: 120px;
+    
+}
+
+.content .hero-content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 96px;
+    letter-spacing: 3px;
+    line-height: 86px;
+    text-shadow: 0px -11px 13px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.content .hero-content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 96px;
+    letter-spacing: 3px;
+    line-height: 86px;
+    text-shadow: 0px -11px 13px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.content .hero-content h3{ 
+    margin: 1px;
+    padding: 0;
+    font-size: 96px;
+    letter-spacing: 3px;
+    line-height: 86px;
+    text-shadow: 0px -11px 13px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 3;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    color: transparent;
+}
+
+.content .hero-content h4 {
+    margin-top: 87px;
+    padding: 0;
+    font-size: 96px;
+    letter-spacing: 3px;
+    line-height: 86px;
+    text-shadow: 0px -11px 13px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 3;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    color: transparent;
+}
+
+.content .hero-button {
+    display: inline-block;
+    margin-top: 0px;
+    padding: 20px 48px;
+    font-size: 24px;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: #0073f6;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 115, 246, 0.5);
+}
+
+.content .hero-button:hover {
+    background-color: #005bb5;
+    box-shadow: 0 0 20px rgba(0, 115, 246, 0.7);
+}
+
+.content .hero-bg {
+    position: absolute;
+    width: 2300px;
+    margin-right: 570px;
+    margin-top: 300px;
+    z-index: 1;
+}
+
+
+
+/* .hero {
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.hero .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slideshow-container .mySlides {
+    display: none;
+}
+
+.slideshow-container .mySlides img {
+    vertical-align: middle;
+}
+
+.slideshow-container .mySlides .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.slideshow-container .prev, 
+.slideshow-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.slideshow-container .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slideshow-container .prev:hover, 
+.slideshow-container .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} */
+
+/* Media Queries */
+
+/* Tablet or Mobile Phone */
+@media (max-width: 941px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
