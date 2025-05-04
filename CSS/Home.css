@@ -35,7 +35,7 @@ body {
     z-index: -1;
 } */
 
-.hero .hero-text h1{
+.hero h1{
     display: flex;
     justify-content: center;
     font-size: 64px;
@@ -51,6 +51,23 @@ body {
     align-items: center;
     margin-top: 20px;
     z-index: 2;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero .hero-slideshow img{
+    width: 260px;
+    height: 260px;
+    margin-left: 27px;
+    margin-right: 27px;
+
+}
+
+.hero .hero-slideshow p{
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 10px;
 }
 
 .hero .hero-slideshow .image1{
@@ -58,15 +75,15 @@ body {
 }
 
 .hero .hero-slideshow .image2{
-    display: none;
+
 }
 
 .hero .hero-slideshow .image3{
-    display: none;
+    
 }
 
 .hero .hero-slideshow .image4{
-    display: none;
+    
 }
 
 .hero .hero-button{
@@ -81,7 +98,7 @@ body {
     margin-top: 0px;
     padding: 20px 48px;
     font-size: 24px;
-    font-weight: bold;
+    line-spacing: 2px;
     text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
     color: white;
     background-color: #0073f6;
