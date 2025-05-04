@@ -21,6 +21,7 @@
     align-items: center;
     background-color: #141619;
     position: fixed;
+    height: 87px;
     top: 0;
     left: 0;
     right: 0;
@@ -30,6 +31,7 @@
 
 .nav-bar .logo {
     padding: 0;
+    padding-left: 20px;
     margin: 0;
 }
 
@@ -37,7 +39,7 @@
     border-left: 1px solid #fff;
     height: 57px; 
     position: absolute; 
-    left: 216px;
+    left: 198px;
 }
 
 .nav-bar .nav-bar-menu .home-button{
