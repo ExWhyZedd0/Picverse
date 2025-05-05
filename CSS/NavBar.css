@@ -16,6 +16,7 @@
 
 /* Nav Bar*/
 .nav-bar {
+    font-family: 'Newake';
     display: flex;
     justify-content: space-between;
     align-items: center;
