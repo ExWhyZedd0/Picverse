@@ -24,7 +24,7 @@ body {
 
 /* Hero Section */
 
-.hero{
+.hero {
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -155,6 +155,44 @@ body {
 /* Mobile Phone */
 @media (max-width: 450px) {
     html {
-        font-size: 55%;
+        font-size: 50%;
+    }
+    
+    .hero h1 {
+        font-size: 48px;
+    }
+    
+    .hero .hero-slideshow {
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* .hero .hero-slideshow {
+        position: relative;
+        width: 260px;
+        margin: 0 auto;
+        overflow: hidden;
+    } */
+    
+    /* .hero .hero-slideshow .hero-slideshow-item {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    } */
+    
+    .hero .hero-slideshow .hero-slideshow-item.active {
+        display: block;
+        opacity: 1;
+    }
+    .hero .hero-slideshow-item {
+        width: 65%;
+        max-width: 300px;
+    }
+    
+    .hero .hero-slideshow img {
+        width: 100%;
+        height: auto;
     }
 }

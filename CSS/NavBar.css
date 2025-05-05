@@ -123,17 +123,18 @@
 @media (max-width: 941px) {
     html {
         font-size: 62.5%;
+        width: 941px;
     }
 
     .nav-bar .vertical-line {
         display: none;
     }
 
-    .nav-bar .nav-bar-extra .login-button {
+    .nav-bar .nav-bar-extra .signup-button{
         display: none;
     }
 
-    .nav-bar .nav-bar-extra .signup-button {
+    .nav-bar .nav-bar-extra .login-button {
         display: none;
     }
 
@@ -230,6 +231,10 @@
 /* Mobile Phone */
 @media (max-width: 450px) {
      html {
-        font-size: 55%;
+        font-size: 50%;
+        width: 450px;
+    }
+    #hamburger-menu {     
+        margin-right: 38px;
     }
 }
