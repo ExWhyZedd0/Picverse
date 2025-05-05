@@ -20,7 +20,7 @@ body {
     background-color:#141619;
     min-height: 2000px;
     display: flex;
-}
+    flex-direction: column;
 
 /* Hero Section */
 
