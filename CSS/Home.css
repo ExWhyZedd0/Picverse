@@ -21,7 +21,7 @@ body {
     min-height: 2000px;
     display: flex;
     flex-direction: column;
-
+}
 /* Hero Section */
 
 .hero {
@@ -134,7 +134,7 @@ body {
     width: auto;
 }
 
-.hero .hero-button a :hover {;
+.hero .hero-button a :hover {
     background-color: #005bb5;
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(0, 115, 246, 0.7);
