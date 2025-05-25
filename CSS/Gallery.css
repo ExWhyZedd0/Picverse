@@ -161,7 +161,7 @@ body {
 .card-item {
     background-color: #2d3138;
     border-radius: 24px;
-    text-align: center;
+    text-align: left;;
     transition: transform 0.2s;
 }
 
