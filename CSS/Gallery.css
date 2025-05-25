@@ -44,6 +44,8 @@ body {
 }
 
 .hero span{
+    display: flex;
+    align-items: center;
     justify-content: center;
     color:#0073f6 ;
 }
@@ -94,8 +96,32 @@ body {
 /* Card Section */
 
 .card-section {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center:
 }
+
+.card-button {
+    margin-top: 60px;
+    /* margin-left: -520px; */
+}
+
+.card-button button {
+    font-family: "Newake";
+    font-size: 16px;
+    letter-spacing: 0.53px;
+    display:inline;
+    background-color: transparent;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.card-button button:hover {
+    color: #0073f6;
+    transition: 0.2s ease-in-out;
+}
+
 /* .card-section .card-button button {
     background-color: transparent;
     color: #fff;
@@ -156,10 +182,11 @@ body {
     gap: 20px;
     margin: 30px;
     letter-spacing: 0.53px;
+    max-width: 1000px;
 }
 
 .card-item {
-    background-color: #2d3138;
+    background-color: #fff;
     border-radius: 24px;
     text-align: left;;
     transition: transform 0.2s;
@@ -182,51 +209,19 @@ body {
 
 .card-item .item-name {
     font-size: 16px;
-    color: #fff;
+    color: #000;
+    margin-top: 8px;
+    margin-left: 10px;
 }
 
 .card-item .creator {
     font-size: 11px;
-    color: #fff;
+    color: #000;
+    margin-bottom: 35px;
+    margin-left: 10px;
 }
 
 .card-item span {
     color: #0073f6;
     font-size: 11px;
-}
-
-/* GPT */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    margin: 30px;
-}
-
-.gallery-card {
-    background-color: #2d3138;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-.gallery-card:hover {
-    transform: scale(1.05);
-}
-
-.gallery-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.gallery-card h3 {
-    margin: 10px 0;
-    font-size: 1.2rem;
-}
-
-.gallery-card p {
-    font-size: 1rem;
-    color: #bbb;
 }
