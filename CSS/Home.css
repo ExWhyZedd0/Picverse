@@ -23,6 +23,7 @@ body {
     color: white;
     background-color:#141619;
 }
+
 /* Hero Section */
 
 .hero {
@@ -247,14 +248,14 @@ body {
 /* Media Queries */
 
 /* Tablet or Mobile Phone */
-@media (max-width: 941px) {
+/* @media (max-width: 941px) {
     html {
         font-size: 62.5%;
     }
-}
+} */
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
     html {
         font-size: 50%;
     }
@@ -266,7 +267,7 @@ body {
     .hero .hero-slideshow {
         flex-direction: column;
         gap: 20px;
-    }
+    } */
     /* .hero .hero-slideshow {
         position: relative;
         width: 260px;
@@ -282,7 +283,7 @@ body {
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
     } */
-    
+/*     
     .hero .hero-slideshow .hero-slideshow-item.active {
         display: block;
         opacity: 1;
@@ -296,4 +297,4 @@ body {
         width: 100%;
         height: auto;
     }
-}
+} */
