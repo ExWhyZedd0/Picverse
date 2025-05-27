@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Newake';
+    src: url(./Fonts/Newake-Font-Demo.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: "Newake";
+    color: white;
+    background-color:#141619;
+    min-height: 100vh;
+}
+
+/* Submission Section */
+.submission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.submission-title {
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+
+.submission-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submission-content p {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.53px;
+}
+
+.upload-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2124;
+    border-radius: 15px;
+    padding: 55px;
+    margin-bottom: 80px;
+}
+
+.upload-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 2px dashed #fff;
+    border-radius: 15px;
+    background-color: #1a1c20;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+#upload-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.upload-button button {
+    background-color: transparent;
+    color: #fff;
+    font-family: "newake";
+    font-size: 16px;
+    letter-spacing: 0.53px;
+    margin-top: 10px;
+}
+
+.upload-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    gap: 20px;
+}
+
+.upload-info input::placeholder {
+    color: #000;
+    font-family: "Newake";
+    letter-spacing: 1px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.upload-info .email input {
+    width: 500px;
+    height: 40px;
+    font-family: "Newake";
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.upload-info .title input {
+    width: 500px;
+    height: 40px;
+    font-family: "Newake";
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 2;
+}
+
+.upload-info .description textarea{
+    width: 500px;
+    height: 120px;
+    font-family: "Newake";
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 2px;
+    resize: none; 
+}
+
+.upload-info .description textarea::placeholder {
+    color: #000;
+    font-family: "Newake";
+    letter-spacing: 1px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom-info .art-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.bottom-info .tag input {
+    width: 250px;
+    height: 40px;
+    font-family: "Newake";
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.publish-button {
+    font-family: "Newake";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: #0073f6;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 95%;
+    padding: 20px;
+    border-top: #fff 1px solid;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px; 
+}
+
+.footer-logo img {
+    width: 300px;
+    height: auto;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu p {
+    transition: 0.2s ease-in-out;
+}
+.footer-menu p:hover {
+    color: #0073f6;
+}
+
+.footer-menu h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.footer-menu-title  {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 5px;
+}
+
+.footer-copyright {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    margin-top: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
