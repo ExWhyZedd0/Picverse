@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Newake';
+    src: url(./Fonts/Newake-Font-Demo.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Newake";
+    color: white;
+    background-color:#141619;
+    min-height: 2000px;
+}
