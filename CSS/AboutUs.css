@@ -18,9 +18,87 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-family: "Newake";
     color: white;
     background-color:#141619;
     min-height: 2000px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 133px;
+}
+
+/* Body Section */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin-top: 43px;
+    border-top: #fff 2px solid;
+}
+
+.about-us img {
+    width: 100%;
+    height: auto;
+    max-width: 480px;
+    border-radius: 10px;
+}
+
+.about-us h2 {
+    letter-spacing: 2px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.53px;
+    width: 100%;
+    gap: 40px;
+}
+
+.about-picverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.about-picverse-text {
+    margin-left: 25px;
+}
+
+.picverse-vision {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.picverse-vision-text {
+    margin-right: 25px;
+}
+
+.picverse-mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.picverse-mission-text {
+    margin-left: 25px;
 }
