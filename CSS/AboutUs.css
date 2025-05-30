@@ -21,7 +21,6 @@ body {
     font-family: "Newake";
     color: white;
     background-color:#141619;
-    min-height: 2000px;
 }
 
 /* Hero Section */
@@ -101,4 +100,102 @@ body {
 
 .picverse-mission-text {
     margin-left: 25px;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 95%;
+    padding: 20px;
+    border-top: #fff 1px solid;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px; 
+}
+
+.footer-logo img {
+    width: 300px;
+    height: auto;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu p {
+    transition: 0.2s ease-in-out;
+}
+.footer-menu p:hover {
+    color: #0073f6;
+}
+
+.footer-menu h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.footer-menu-title  {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 5px;
+}
+
+.footer-copyright {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    margin-top: 16px;
+    text-align: center;
+    margin-top: 50px;
 }

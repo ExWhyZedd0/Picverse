@@ -21,7 +21,6 @@ body {
     font-family: "Newake";
     color: white;
     background-color:#141619;
-    min-height: 2000px;
 }
 
 /* Hero Section */
@@ -30,6 +29,13 @@ body {
     justify-content: center;
     align-items: top;
     margin-top: 133px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 48px;
+    letter-spacing: 4px;
+    text-align: center;
 }
 
 /* Forum Section */
@@ -56,17 +62,22 @@ body {
     border: #0073f6 2px solid;
     border-radius: 50px;
     margin-top: 50px;
+    background-color: rgb(0, 115, 246, 0.2);
 }
 
 .search-bar input {
     background-color: transparent;
     color: #fff;
+    font-family: "Newake";
+    width: 505px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .search-bar input::placeholder {
     font-family: "Newake";
     letter-spacing: 1px;
-    color: #fff;
+    color: rgb(255, 255, 255, 0.6);
     font-size: 14px;
 }
 
@@ -223,4 +234,100 @@ body {
 
 
 
-/* Footer */
+/* Footer Section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 95%;
+    padding: 20px;
+    border-top: #fff 1px solid;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px; 
+}
+
+.footer-logo img {
+    width: 300px;
+    height: auto;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu p {
+    transition: 0.2s ease-in-out;
+}
+.footer-menu p:hover {
+    color: #0073f6;
+}
+
+.footer-menu h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.footer-menu-title  {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    gap: 6px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 5px;
+}
+
+.footer-copyright {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.53px;
+    margin-top: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
