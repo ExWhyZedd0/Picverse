@@ -37,10 +37,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1400px;
     padding: 30px;
     margin-top: 43px;
-    border-top: #fff 2px solid;
+    border-top: 2px solid #fff;
 }
 
 .about-us img {
@@ -48,10 +48,17 @@ body {
     height: auto;
     max-width: 480px;
     border-radius: 10px;
+    margin: 25px;
 }
 
 .about-us h2 {
     letter-spacing: 2px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
 }
 
 .content {
@@ -61,45 +68,58 @@ body {
     align-items: center;
     color: #fff;
     font-size: 16px;
-    letter-spacing: 0.53px;
+    letter-spacing: 1px;
     width: 100%;
     gap: 40px;
+    margin-top: 30px;
 }
 
 .about-picverse {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
 .about-picverse-text {
-    margin-left: 25px;
+    margin-left: 0px;
 }
 
 .picverse-vision {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
 .picverse-vision-text {
-    margin-right: 25px;
+    margin-right: 0px;
 }
 
 .picverse-mission {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
 .picverse-mission-text {
-    margin-left: 25px;
+    margin-left: 0px;
+}
+
+.picverse-key-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.picverse-key-features-text {
+    margin-left: 0px;
 }
 
 /* Footer Section */
@@ -116,6 +136,7 @@ body {
     border-radius: 15px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    margin-top: 50px;
 }
 
 .footer-container {
