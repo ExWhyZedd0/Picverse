@@ -101,6 +101,8 @@ body {
     align-items: center;
     border: #0073f6 2px solid;
     width: 280px;
+    height: 100%;
+    border-radius: 25px;
 }
 
 .profile-title {
@@ -115,6 +117,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .profile-info {
@@ -132,14 +135,13 @@ body {
     height: 50px;
     border-radius: 50%;
     margin-right: 15px;
-    margin-left: 20px;
 }
 
 .profile-name-rank {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 20px;
+    gap: 3px;
 }
 
 .username {
@@ -192,7 +194,10 @@ body {
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
-    border: #0073f6 2px solid;
+    border-top: #0073f6 2px solid;
+    border-left: #0073f6 2px solid;
+    border-right: #0073f6 2px solid;
+    border-radius: 25px;
     width: 1100px;
 }
 
@@ -266,6 +271,8 @@ body {
     width: 1100px;
     gap: 15px;
     border-bottom: #0073f6 2px solid;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 20px;
@@ -290,6 +297,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-right: 20px;
+    gap: 3px;
 }
 
 .content-username {
@@ -309,6 +317,7 @@ body {
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
+    gap: 10px;
 }
 
 .post-content h2 {
@@ -321,7 +330,7 @@ body {
 
 .content-title {
     font-size: 20px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     margin-bottom: 3px;
 }
 
@@ -336,6 +345,22 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    width:100%;
+}
+
+.post-footer button {
+    display: inline-flex;
+    background-color: transparent;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    gap: 3px;
+}
+
+.post-footer button:hover {
+    color: #0073f6;
+    transition: color 0.2s ease-in-out;
 }
 
 .user-list {
@@ -343,13 +368,16 @@ body {
     flex-direction: column;
     align-items: center;
     border: #0073f6 2px solid;
+    border-radius: 25px;
+    width: 280px;
+    height: 100%;
+    padding: 20px;
 }
 
 .user-list-header {
     color: #fff;
     font-size: 24px;
     letter-spacing: 1.5px;
-    margin-top: 20px;
 }
 
 .user {
@@ -358,6 +386,8 @@ body {
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
+    margin-top: 20px;
+    gap: 8px;
 }
 
 .user-info {
