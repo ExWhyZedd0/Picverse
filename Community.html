@@ -1,430 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="Width=device-width, initaial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="Width=device-width, initaial-scale=1.0" />
     <title>Picverse Community - Home</title>
     <!-- G Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="CSS/NavBar.css">
-    <link rel="stylesheet" href="CSS/Community.css">
-</head>
+    <link rel="stylesheet" href="CSS/NavBar.css" />
+    <link rel="stylesheet" href="CSS/Community.css" />
+  </head>
 
-<body>
-
+  <body>
     <!--NavBar-->
     <header>
-        <nav class="nav-bar">
-            <a href="Home.html" class="logo"><img src="CSS/Image/logo/Picverse Logo with Text.png" width="168px"
-                    height="52px" alt=""></a>
-            <div class="vertical-line"></div>
-            <div class="nav-bar-menu">
-                <a href="#Login" class="login-button-menu">Log In</a>
-                <a href="#Signup" class="signup-button-menu">Sign Up</a>
-                <a href="Home.html" class="home-button">HOME</a>
-                <a href="Create.html" class="create-button">CREATE</a>
-                <a href="Gallery.html" class="gallery-button">GALLERY</a>
-                <a href="Community.html" class="community-button">COMMUNITY</a>
-                <a href="AboutUs.html" class="aboutus-button">ABOUT US</a>
-            </div>
-            <div class="nav-bar-extra">
-                <a href="#Login" class="login-button">Log In</a>
-                <a href="#Signup" class="signup-button">Sign Up</a>
-                <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
-            </div>
-        </nav>
+      <nav class="nav-bar">
+        <a href="Home.html" class="logo"
+          ><img
+            src="CSS/Image/logo/Picverse Logo with Text.png"
+            width="168px"
+            height="52px"
+            alt=""
+        /></a>
+        <div class="vertical-line"></div>
+        <div class="nav-bar-menu">
+          <a href="#Login" class="login-button-menu">Log In</a>
+          <a href="#Signup" class="signup-button-menu">Sign Up</a>
+          <a href="Home.html" class="home-button">HOME</a>
+          <a href="Create.html" class="create-button">CREATE</a>
+          <a href="Gallery.html" class="gallery-button">GALLERY</a>
+          <a href="Community.html" class="community-button">COMMUNITY</a>
+          <a href="AboutUs.html" class="aboutus-button">ABOUT US</a>
+        </div>
+        <div class="nav-bar-extra">
+          <a href="#Login" class="login-button">Log In</a>
+          <a href="#Signup" class="signup-button">Sign Up</a>
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1 class="title">Community <span>Forum</span></h1>
+      <h1 class="title">Community <span>Forum</span></h1>
     </section>
 
     <!-- Forum Section -->
     <section class="forum">
-        <div class="forum-header">
-            <div class="search-bar">
-                <input type="text" placeholder="Search for topics or posts...">
-                <i data-feather="search" id="search-button"></i>
-            </div>
+      <div class="forum-header">
+        <div class="search-bar">
+          <input type="text" placeholder="Search for topics or posts..." />
+          <i data-feather="search" id="search-button"></i>
         </div>
-        <div class="forum-content">
-            <div class="profile">
-                <p class="profile-title">Your Profile</p>
-                <div class="profile-list">
-                    <div class="profile-info">
-                        <div class="profile-picture">
-                            <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="">
-                        </div>
-                        <div class="profile-name-rank">
-                            <div class="username">
-                                <p>ExWhyZed</p>
-                            </div>
-                            <div class="user-rank">
-                                <p>Legendary Creator</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="profile-stat">
-                        <div class="following">
-                            <p>128</p>
-                            <p>Following</p>
-                        </div>
-                        <div class="followers">
-                            <p>13.8M</p>
-                            <p>Followers</p>
-                        </div>
-                        <div class="likes">
-                            <p>167.9M
-                            <p>
-                            <p>Likes</p>
-                        </div>
-                    </div>
+      </div>
+      <div class="forum-content">
+        <div class="profile">
+          <p class="profile-title">Your Profile</p>
+          <div class="profile-list">
+            <div class="profile-info">
+              <div class="profile-picture">
+                <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="" />
+              </div>
+              <div class="profile-name-rank">
+                <div class="username">
+                  <p>ExWhyZed</p>
                 </div>
+                <div class="user-rank">
+                  <p>Legendary Creator</p>
+                </div>
+              </div>
             </div>
-            <div class="content">
-                <p class="content-header">For You</p>
-                <div class="for-you">
-                    <div class="post">
-                        <input type="text" placeholder="Make New Topic...">
-                        <button class="post-button">Post</button>
-                    </div>
-                    <div class="for-you-line"></div>
-                    <div class="for-you-content">
-                        <div class="post-item">
-                            <div class="post-header">
-                                <div class="content-profile-picture">
-                                    <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="">
-                                </div>
-                                <div class="content-profile-name-rank">
-                                    <div class="content-username">
-                                        <p>ExWhyZed</p>
-                                    </div>
-                                    <div class="content-user-rank">
-                                        <p>Legendary Creator</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-content">
-                                <h2 class="content-title">What role do social media platforms play in the dissemination
-                                    of contemporary art, and how does it affect the market value of art?</h2>
-                                <p>With the rise of platforms like Instagram, TikTok, and Pinterest, art has become more
-                                    accessible to global audiences.
-                                    This conversation will focus on how social media influences art trends,
-                                    accessibility, and the commercialization of art.
-                                    Is there a shift in how the art world functions due to these platforms?
-                                </p>
-                            </div>
-                            <div class="post-footer">
-                                <div class="post-actions">
-                                    <button class="like-button"><i data-feather="thumbs-up"></i>1.3M</button>
-                                    <button class="comment-button"><i data-feather="message-circle"></i>76.3K</button>
-                                </div>
-                                <div class="post-stats">
-                                    <button class="share-button"><i data-feather="share-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="post-item">
-                            <div class="post-header">
-                                <div class="content-profile-picture">
-                                    <img src="./CSS/Image/retart/Tomato retart.avif" alt="">
-                                </div>
-                                <div class="content-profile-name-rank">
-                                    <div class="content-username">
-                                        <p>DABERTZ</p>
-                                    </div>
-                                    <div class="content-user-rank">
-                                        <p>Noob Creator</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-content">
-                                <h2 class="content-title">Does digital technology reduce the authenticity and value of
-                                    art, or does it open up new possibilities for authenticity and originality?</h2>
-                                <p>There is an ongoing debate about whether digital art, especially in the form of NFTs
-                                    (non-fungible tokens), can truly be considered authentic in the traditional sense.
-                                    This discussion will examine the concept of authenticity in the digital age and
-                                    whether it changes how we value art.
-                                </p>
-                            </div>
-                            <div class="post-footer">
-                                <div class="post-actions">
-                                    <button class="like-button"><i data-feather="thumbs-up"></i>19.3k</button>
-                                    <button class="comment-button"><i data-feather="message-circle"></i>359</button>
-                                </div>
-                                <div class="post-stats">
-                                    <button class="share-button"><i data-feather="share-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="post-item">
-                            <div class="post-header">
-                                <div class="content-profile-picture">
-                                    <img src="./CSS/Image/doodle/Smoker.avif" alt="">
-                                </div>
-                                <div class="content-profile-name-rank">
-                                    <div class="content-username">
-                                        <p>XNothZ</p>
-                                    </div>
-                                    <div class="content-user-rank">
-                                        <p>Legendary Creator</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-content">
-                                <h2 class="content-title">How do artists navigate the balance between maintaining
-                                    traditional artistic techniques and embracing new digital mediums?</h2>
-                                <p>Many artists blend traditional techniques with new digital mediums, but it can be
-                                    challenging to find a balance.
-                                    This part will explore how artists are incorporating both analog and digital methods
-                                    and whether the fusion of these two approaches results in more dynamic, layered
-                                    artwork.
-                                </p>
-                            </div>
-                            <div class="post-footer">
-                                <div class="post-actions">
-                                    <button class="like-button"><i data-feather="thumbs-up"></i>2.8M</button>
-                                    <button class="comment-button"><i data-feather="message-circle"></i>507.2K</button>
-                                </div>
-                                <div class="post-stats">
-                                    <button class="share-button"><i data-feather="share-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="post-item">
-                            <div class="post-header">
-                                <div class="content-profile-picture">
-                                    <img src="./CSS/Image/dog/Zombie dog.webp" alt="">
-                                </div>
-                                <div class="content-profile-name-rank">
-                                    <div class="content-username">
-                                        <p>Joseul</p>
-                                    </div>
-                                    <div class="content-user-rank">
-                                        <p>Advanced Creator</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-content">
-                                <h2 class="content-title">Content Title</h2>
-                                <p>This is a sample post content. Feel free to discuss and share your thoughts!</p>
-                            </div>
-                            <div class="post-footer">
-                                <div class="post-actions">
-                                    <button class="like-button"><i data-feather="thumbs-up"></i>233.7k</button>
-                                    <button class="comment-button"><i data-feather="message-circle"></i>6.3K</button>
-                                </div>
-                                <div class="post-stats">
-                                    <button class="share-button"><i data-feather="share-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="post-item">
-                            <div class="post-header">
-                                <div class="content-profile-picture">
-                                    <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="">
-                                </div>
-                                <div class="content-profile-name-rank">
-                                    <div class="content-username">
-                                        <p>ExWhyZed</p>
-                                    </div>
-                                    <div class="content-user-rank">
-                                        <p>Legendary Creator</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-content">
-                                <h2 class="content-title">Content Title</h2>
-                                <p>This is a sample post content. Feel free to discuss and share your thoughts!</p>
-                            </div>
-                            <div class="post-footer">
-                                <div class="post-actions">
-                                    <button class="like-button"><i data-feather="thumbs-up"></i>1.3M</button>
-                                    <button class="comment-button"><i data-feather="message-circle"></i>76.3K</button>
-                                </div>
-                                <div class="post-stats">
-                                    <button class="share-button"><i data-feather="share-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="post-item">
-                            <div class="post-header">
-                                <div class="content-profile-picture">
-                                    <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="">
-                                </div>
-                                <div class="content-profile-name-rank">
-                                    <div class="content-username">
-                                        <p>ExWhyZed</p>
-                                    </div>
-                                    <div class="content-user-rank">
-                                        <p>Legendary Creator</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-content">
-                                <h2 class="content-title">Content Title</h2>
-                                <p>This is a sample post content. Feel free to discuss and share your thoughts!</p>
-                            </div>
-                            <div class="post-footer">
-                                <div class="post-actions">
-                                    <button class="like-button"><i data-feather="thumbs-up"></i>1.3M</button>
-                                    <button class="comment-button"><i data-feather="message-circle"></i>76.3K</button>
-                                </div>
-                                <div class="post-stats">
-                                    <button class="share-button"><i data-feather="share-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="profile-stat">
+              <div class="following">
+                <p>128</p>
+                <p>Following</p>
+              </div>
+              <div class="followers">
+                <p>13.8M</p>
+                <p>Followers</p>
+              </div>
+              <div class="likes">
+                <p>167.9M</p>
+                <p></p>
+                <p>Likes</p>
+              </div>
             </div>
-            <div class="user-list">
-                <div class="user-list-header">
-                    <p>Active User</p>
-                </div>
-                <div class="user">
-                    <div class="user-info">
-                        <div class="profile-picture">
-                            <img src="./CSS/Image/retart/Tomato retart.avif" alt="">
-                        </div>
-                        <div class="profile-name-rank">
-                            <div class="username">
-                                <p>DABERTZ</p>
-                            </div>
-                            <div class="user-rank">
-                                <p>Noob Creator</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-info">
-                        <div class="profile-picture">
-                            <img src="./CSS/Image/doodle/Cat.avif" alt="">
-                        </div>
-                        <div class="profile-name-rank">
-                            <div class="username">
-                                <p>Mpin</p>
-                            </div>
-                            <div class="user-rank">
-                                <p>Intermediate Creator</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-info">
-                        <div class="profile-picture">
-                            <img src="./CSS/Image/opepen/Colorful opepen.avif" alt="">
-                        </div>
-                        <div class="profile-name-rank">
-                            <div class="username">
-                                <p>Bleswort</p>
-                            </div>
-                            <div class="user-rank">
-                                <p>Beginner Creator</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-info">
-                        <div class="profile-picture">
-                            <img src="./CSS/Image/doodle/Smoker.avif" alt="">
-                        </div>
-                        <div class="profile-name-rank">
-                            <div class="username">
-                                <p>XNothZ</p>
-                            </div>
-                            <div class="user-rank">
-                                <p>Legendary Creator</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-info">
-                        <div class="profile-picture">
-                            <img src="./CSS/Image/dog/Zombie dog.webp" alt="">
-                        </div>
-                        <div class="profile-name-rank">
-                            <div class="username">
-                                <p>Joseul</p>
-                            </div>
-                            <div class="user-rank">
-                                <p>Advanced Creator</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-info">
-                        <div class="profile-picture">
-                            <img src="./CSS/Image/dog/Laser dog.webp" alt="">
-                        </div>
-                        <div class="profile-name-rank">
-                            <div class="username">
-                                <p>Adit</p>
-                            </div>
-                            <div class="user-rank">
-                                <p>Expert Creator</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="content">
+          <p class="content-header">For You</p>
+          <div class="for-you">
+            <div class="post">
+              <input type="text" placeholder="Make New Topic..." />
+              <button class="post-button">Post</button>
+            </div>
+            <div class="for-you-line"></div>
+            <div class="for-you-content">
+              <div class="post-item">
+                <div class="post-header">
+                  <div class="content-profile-picture">
+                    <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="" />
+                  </div>
+                  <div class="content-profile-name-rank">
+                    <div class="content-username">
+                      <p>ExWhyZed</p>
+                    </div>
+                    <div class="content-user-rank">
+                      <p>Legendary Creator</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h2 class="content-title">
+                    What role do social media platforms play in the
+                    dissemination of contemporary art, and how does it affect
+                    the market value of art?
+                  </h2>
+                  <p>
+                    With the rise of platforms like Instagram, TikTok, and
+                    Pinterest, art has become more accessible to global
+                    audiences. This conversation will focus on how social media
+                    influences art trends, accessibility, and the
+                    commercialization of art. Is there a shift in how the art
+                    world functions due to these platforms?
+                  </p>
+                </div>
+                <div class="post-footer">
+                  <div class="post-actions">
+                    <button class="like-button">
+                      <i data-feather="thumbs-up"></i>1.3M
+                    </button>
+                    <button class="comment-button">
+                      <i data-feather="message-circle"></i>76.3K
+                    </button>
+                  </div>
+                  <div class="post-stats">
+                    <button class="share-button">
+                      <i data-feather="share-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="post-item">
+                <div class="post-header">
+                  <div class="content-profile-picture">
+                    <img src="./CSS/Image/retart/Tomato retart.avif" alt="" />
+                  </div>
+                  <div class="content-profile-name-rank">
+                    <div class="content-username">
+                      <p>DABERTZ</p>
+                    </div>
+                    <div class="content-user-rank">
+                      <p>Noob Creator</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h2 class="content-title">
+                    Does digital technology reduce the authenticity and value of
+                    art, or does it open up new possibilities for authenticity
+                    and originality?
+                  </h2>
+                  <p>
+                    There is an ongoing debate about whether digital art,
+                    especially in the form of NFTs (non-fungible tokens), can
+                    truly be considered authentic in the traditional sense. This
+                    discussion will examine the concept of authenticity in the
+                    digital age and whether it changes how we value art.
+                  </p>
+                </div>
+                <div class="post-footer">
+                  <div class="post-actions">
+                    <button class="like-button">
+                      <i data-feather="thumbs-up"></i>19.3k
+                    </button>
+                    <button class="comment-button">
+                      <i data-feather="message-circle"></i>359
+                    </button>
+                  </div>
+                  <div class="post-stats">
+                    <button class="share-button">
+                      <i data-feather="share-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="post-item">
+                <div class="post-header">
+                  <div class="content-profile-picture">
+                    <img src="./CSS/Image/doodle/Smoker.avif" alt="" />
+                  </div>
+                  <div class="content-profile-name-rank">
+                    <div class="content-username">
+                      <p>XNothZ</p>
+                    </div>
+                    <div class="content-user-rank">
+                      <p>Legendary Creator</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h2 class="content-title">
+                    How do artists navigate the balance between maintaining
+                    traditional artistic techniques and embracing new digital
+                    mediums?
+                  </h2>
+                  <p>
+                    Many artists blend traditional techniques with new digital
+                    mediums, but it can be challenging to find a balance. This
+                    part will explore how artists are incorporating both analog
+                    and digital methods and whether the fusion of these two
+                    approaches results in more dynamic, layered artwork.
+                  </p>
+                </div>
+                <div class="post-footer">
+                  <div class="post-actions">
+                    <button class="like-button">
+                      <i data-feather="thumbs-up"></i>2.8M
+                    </button>
+                    <button class="comment-button">
+                      <i data-feather="message-circle"></i>507.2K
+                    </button>
+                  </div>
+                  <div class="post-stats">
+                    <button class="share-button">
+                      <i data-feather="share-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="post-item">
+                <div class="post-header">
+                  <div class="content-profile-picture">
+                    <img src="./CSS/Image/dog/Zombie dog.webp" alt="" />
+                  </div>
+                  <div class="content-profile-name-rank">
+                    <div class="content-username">
+                      <p>Joseul</p>
+                    </div>
+                    <div class="content-user-rank">
+                      <p>Advanced Creator</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h2 class="content-title">Content Title</h2>
+                  <p>
+                    This is a sample post content. Feel free to discuss and
+                    share your thoughts!
+                  </p>
+                </div>
+                <div class="post-footer">
+                  <div class="post-actions">
+                    <button class="like-button">
+                      <i data-feather="thumbs-up"></i>233.7k
+                    </button>
+                    <button class="comment-button">
+                      <i data-feather="message-circle"></i>6.3K
+                    </button>
+                  </div>
+                  <div class="post-stats">
+                    <button class="share-button">
+                      <i data-feather="share-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="post-item">
+                <div class="post-header">
+                  <div class="content-profile-picture">
+                    <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="" />
+                  </div>
+                  <div class="content-profile-name-rank">
+                    <div class="content-username">
+                      <p>ExWhyZed</p>
+                    </div>
+                    <div class="content-user-rank">
+                      <p>Legendary Creator</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h2 class="content-title">Content Title</h2>
+                  <p>
+                    This is a sample post content. Feel free to discuss and
+                    share your thoughts!
+                  </p>
+                </div>
+                <div class="post-footer">
+                  <div class="post-actions">
+                    <button class="like-button">
+                      <i data-feather="thumbs-up"></i>1.3M
+                    </button>
+                    <button class="comment-button">
+                      <i data-feather="message-circle"></i>76.3K
+                    </button>
+                  </div>
+                  <div class="post-stats">
+                    <button class="share-button">
+                      <i data-feather="share-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="post-item">
+                <div class="post-header">
+                  <div class="content-profile-picture">
+                    <img src="./CSS/Image/cool cat/Celestial Cat.png" alt="" />
+                  </div>
+                  <div class="content-profile-name-rank">
+                    <div class="content-username">
+                      <p>ExWhyZed</p>
+                    </div>
+                    <div class="content-user-rank">
+                      <p>Legendary Creator</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <h2 class="content-title">Content Title</h2>
+                  <p>
+                    This is a sample post content. Feel free to discuss and
+                    share your thoughts!
+                  </p>
+                </div>
+                <div class="post-footer">
+                  <div class="post-actions">
+                    <button class="like-button">
+                      <i data-feather="thumbs-up"></i>1.3M
+                    </button>
+                    <button class="comment-button">
+                      <i data-feather="message-circle"></i>76.3K
+                    </button>
+                  </div>
+                  <div class="post-stats">
+                    <button class="share-button">
+                      <i data-feather="share-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-list">
+          <div class="user-list-header">
+            <p>Active User</p>
+          </div>
+          <div class="user">
+            <div class="user-info">
+              <div class="profile-picture">
+                <img src="./CSS/Image/retart/Tomato retart.avif" alt="" />
+              </div>
+              <div class="profile-name-rank">
+                <div class="username">
+                  <p>DABERTZ</p>
+                </div>
+                <div class="user-rank">
+                  <p>Noob Creator</p>
+                </div>
+              </div>
+            </div>
+            <div class="user-info">
+              <div class="profile-picture">
+                <img src="./CSS/Image/doodle/Cat.avif" alt="" />
+              </div>
+              <div class="profile-name-rank">
+                <div class="username">
+                  <p>Mpin</p>
+                </div>
+                <div class="user-rank">
+                  <p>Intermediate Creator</p>
+                </div>
+              </div>
+            </div>
+            <div class="user-info">
+              <div class="profile-picture">
+                <img src="./CSS/Image/opepen/Colorful opepen.avif" alt="" />
+              </div>
+              <div class="profile-name-rank">
+                <div class="username">
+                  <p>Bleswort</p>
+                </div>
+                <div class="user-rank">
+                  <p>Beginner Creator</p>
+                </div>
+              </div>
+            </div>
+            <div class="user-info">
+              <div class="profile-picture">
+                <img src="./CSS/Image/doodle/Smoker.avif" alt="" />
+              </div>
+              <div class="profile-name-rank">
+                <div class="username">
+                  <p>XNothZ</p>
+                </div>
+                <div class="user-rank">
+                  <p>Legendary Creator</p>
+                </div>
+              </div>
+            </div>
+            <div class="user-info">
+              <div class="profile-picture">
+                <img src="./CSS/Image/dog/Zombie dog.webp" alt="" />
+              </div>
+              <div class="profile-name-rank">
+                <div class="username">
+                  <p>Joseul</p>
+                </div>
+                <div class="user-rank">
+                  <p>Advanced Creator</p>
+                </div>
+              </div>
+            </div>
+            <div class="user-info">
+              <div class="profile-picture">
+                <img src="./CSS/Image/dog/Laser dog.webp" alt="" />
+              </div>
+              <div class="profile-name-rank">
+                <div class="username">
+                  <p>Adit</p>
+                </div>
+                <div class="user-rank">
+                  <p>Expert Creator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- footer -->
     <section class="footer">
-        <div class="footer-container">
-            <div class="footer-logo">
-                <img src="CSS/Image/logo/Picverse Logo with Text.png" width="168px" height="52px" alt="">
-            </div>
-            <div class="footer-menu">
-                <div class="legal">
-                    <h3 class="footer-menu-title">Legal</h3>
-                    <p>Terms of use</p>
-                    <p>Lisence agreement</p>
-                    <p>Privacy olicy</p>
-                    <p>Copyright information</p>
-                    <p>Cookies policy</p>
-                    <p>Cookies setting</p>
-                </div>
-                <div class="information">
-                    <h3 class="footer-menu-title">information</h3>
-                    <p>About us</p>
-                    <p>Events</p>
-                    <p>Search trends</p>
-                    <p>Submit content</p>
-                    <p>Blog</p>
-                    <p>Careers</p>
-                </div>
-                <div class="support">
-                    <h3 class="footer-menu-title">Support</h3>
-                    <p>FAQ</p>
-                    <p>Contact</p>
-                </div>
-                <div class="social">
-                    <h3 class="footer-menu-title">Social</h3>
-                    <i data-feather="facebook"></i>
-                    <i data-feather="twitter"></i>
-                    <i data-feather="instagram"></i>
-                    <i data-feather="linkedin"></i>
-                </div>
-            </div>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img
+            src="CSS/Image/logo/Picverse Logo with Text.png"
+            width="168px"
+            height="52px"
+            alt=""
+          />
         </div>
-        <div class="footer-copyright">
-            <p>© 2025 Picverse Community. All rights reserved.</p>
-            <p>Made with ❤️ by ExWhyZed</p>
+        <div class="footer-menu">
+          <div class="legal">
+            <h3 class="footer-menu-title">Legal</h3>
+            <p>Terms of use</p>
+            <p>Lisence agreement</p>
+            <p>Privacy olicy</p>
+            <p>Copyright information</p>
+            <p>Cookies policy</p>
+            <p>Cookies setting</p>
+          </div>
+          <div class="information">
+            <h3 class="footer-menu-title">information</h3>
+            <p>About us</p>
+            <p>Events</p>
+            <p>Search trends</p>
+            <p>Submit content</p>
+            <p>Blog</p>
+            <p>Careers</p>
+          </div>
+          <div class="support">
+            <h3 class="footer-menu-title">Support</h3>
+            <p>FAQ</p>
+            <p>Contact</p>
+          </div>
+          <div class="social">
+            <h3 class="footer-menu-title">Social</h3>
+            <i data-feather="facebook"></i>
+            <i data-feather="twitter"></i>
+            <i data-feather="instagram"></i>
+            <i data-feather="linkedin"></i>
+          </div>
         </div>
+      </div>
+      <div class="footer-copyright">
+        <p>© 2025 Picverse Community. All rights reserved.</p>
+        <p>Made with ❤️ by ExWhyZed</p>
+      </div>
     </section>
 
-
     <!-- Feather Icons -->
-    <script>feather.replace();</script>
+    <script>
+      feather.replace();
+    </script>
 
     <!-- Java Script -->
     <script src="JS/Home.js"></script>
-</body>
-
+  </body>
 </html>
