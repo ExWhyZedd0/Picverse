@@ -187,8 +187,109 @@ body {
     font-size: 11px;
 }
 
-/* Footer Section */
+/* Modal Section */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
+.art {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    border: #0073f6 2px solid;
+    background-color: #141619;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.art-img img {
+    height: 560px;
+    width: auto;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+.art-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 560px;
+    gap: 30px;
+}
+
+.art-info-header {
+    position: flex;
+    flex-direction: row;
+}
+
+.art-info-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.art-title {
+    font-size: 48px;
+    letter-spacing: 4px;
+}
+
+.art-creator {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.art-creator span {
+    color: #0073f6;
+}
+
+.art-close {
+    display: flex;
+    color: #fff;
+}
+
+.art-close-button {
+    color: #fff;
+}
+
+.art-description {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.art-description h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.art-tag {
+    display: flex;
+    flex-direction: column
+}
+
+.art-tag h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.art-tag-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* Footer Section */
 .footer {
     display: flex;
     flex-direction: column;
