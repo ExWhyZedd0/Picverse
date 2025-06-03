@@ -43,6 +43,10 @@ body {
     margin-bottom: 60px;
 }
 
+.submission-title span {
+    color: #0073f6;
+}
+
 .submission-content {
     display: flex;
     flex-direction: row;
@@ -71,7 +75,7 @@ body {
     align-items: center;
     width: 400px;
     height: 400px;
-    border: 2px dashed #fff;
+    border: 2px dashed #0073f6;
     border-radius: 15px;
     background-color: #1a1c20;
     color: #fff;

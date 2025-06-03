@@ -1,139 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="Width=device-width, initaial-scale=1.0">
-        <title>Picverse Community - Home</title>
-        <!-- G Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-        <!-- Feather Icons -->
-        <script src="https://unpkg.com/feather-icons"></script>
-        <!-- CSS -->
-        <link rel="stylesheet" href="CSS/NavBar.css">
-        <link rel="stylesheet" href="CSS/Create.css">
-    </head>
-    <body>
-        <!--NavBar-->
-        <header>
-            <nav class="nav-bar">
-                <a href="Home.html" class="logo"><img src="CSS/Image/logo/Picverse Logo with Text.png" width="168px" height="52px" alt=""></a>
-                <div class="vertical-line"></div>
-                <div class="nav-bar-menu">
-                    <a href="#Login" class="login-button-menu">Log In</a>
-                    <a href="#Signup" class="signup-button-menu">Sign Up</a>
-                    <a href="Home.html" class="home-button">HOME</a>
-                    <a href="Create.html" class="create-button">CREATE</a>
-                    <a href="Gallery.html" class="gallery-button">GALLERY</a>
-                    <a href="Community.html" class="community-button">COMMUNITY</a>
-                    <a href="AboutUs.html" class="aboutus-button">ABOUT US</a>
-                </div>
-                <div class="nav-bar-extra">        
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Width=device-width, initaial-scale=1.0">
+    <title>Picverse Community - Home</title>
+    <!-- G Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/NavBar.css">
+    <link rel="stylesheet" href="CSS/Create.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <header>
+        <nav class="nav-bar">
+            <a href="Home.html" class="logo"><img src="CSS/Image/logo/Picverse Logo with Text.png" width="168px"
+                    height="52px" alt=""></a>
+            <div class="vertical-line"></div>
+            <div class="nav-bar-menu">
+                <a href="#Login" class="login-button-menu">Log In</a>
+                <a href="#Signup" class="signup-button-menu">Sign Up</a>
+                <a href="Home.html" class="home-button">HOME</a>
+                <a href="Create.html" class="create-button">CREATE</a>
+                <a href="Gallery.html" class="gallery-button">GALLERY</a>
+                <a href="Community.html" class="community-button">COMMUNITY</a>
+                <a href="AboutUs.html" class="aboutus-button">ABOUT US</a>
+            </div>
+            <div class="nav-bar-extra">
                 <a href="#Login" class="login-button">Log In</a>
                 <a href="#Signup" class="signup-button">Sign Up</a>
                 <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
-                </div>
-            </nav>
-        </header>
-
-        <!-- Submission Section -->
-        <section class="submission">
-            <div class="submission-title">
-                <h1>Upload Your Work</h1>
             </div>
-            <div class="submission-content">
-                <div class="upload-box">
-                    <div class="upload-button">
-                        <i id="upload-logo" data-feather="upload"></i>
-                        <p>Drag files to upload<br>or</p>
-                        <button>Browse File</button>
-                    </div>
-                    <div class="upload-info">
-                        <div class="email">
-                            <p>Email</p>
-                            <input type="email" placeholder="Enter your email" required>
-                        </div>
-                        <div class="title">
-                            <p>Title</p>
-                            <input type="text" placeholder="Enter title of your work" required>
-                        </div>
-                        <div class="description">
-                            <p>Desciption</p>
-                            <textarea placeholder="Enter a brief description of your work" required></textarea>
-                        </div>
-                        <div class="bottom-info">
-                            <div class="art-type">
-                                <p>Art Type</p>
-                                <label>
-                                    <input type="radio" name="Art Type" value="AI Generated" required>
-                                    AI Generated
-                                </label>
-                                <label>
-                                    <input type="radio" name="Art Type" value="Orginal Art" required>
-                                    Original Art
-                                </label>
-                            </div>
-                            <div class="tag">
-                                <p>Tag</p>
-                                <input type="text" placeholder="Enter tags for your work" required>
-                            </div>
-                        </div>
-                        <button class="publish-button">Publish</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </nav>
+    </header>
 
-        <!-- Footer -->
-        <section class="footer">
-            <div class="footer-container">
-                <div class="footer-logo">
-                    <img src="CSS/Image/logo/Picverse Logo with Text.png" width="168px" height="52px" alt="">
+    <!-- Submission Section -->
+    <section class="submission">
+        <div class="submission-title">
+            <h1>Upload Your <span>Work</span></h1>
+        </div>
+        <div class="submission-content">
+            <div class="upload-box">
+                <div class="upload-button">
+                    <i id="upload-logo" data-feather="upload"></i>
+                    <p>Drag files to upload<br>or</p>
+                    <button>Browse File</button>
                 </div>
-                <div class="footer-menu">
-                    <div class="legal">
-                        <h3 class="footer-menu-title">Legal</h3>
-                        <p>Terms of use</p>
-                        <p>Lisence agreement</p>
-                        <p>Privacy policy</p>
-                        <p>Copyright information</p>
-                        <p>Cookies policy</p>
-                        <p>Cookies setting</p>
+                <div class="upload-info">
+                    <div class="email">
+                        <p>Email</p>
+                        <input type="email" placeholder="Enter your email" required>
                     </div>
-                    <div class="information">
-                        <h3 class="footer-menu-title">information</h3>
-                        <p>About us</p>
-                        <p>Events</p>
-                        <p>Search trends</p>
-                        <p>Submit content</p>
-                        <p>Blog</p>
-                        <p>Careers</p>
+                    <div class="title">
+                        <p>Title</p>
+                        <input type="text" placeholder="Enter title of your work" required>
                     </div>
-                    <div class="support">
-                        <h3 class="footer-menu-title">Support</h3>
-                        <p>FAQ</p>
-                        <p>Contact</p>
+                    <div class="description">
+                        <p>Desciption</p>
+                        <textarea placeholder="Enter a brief description of your work" required></textarea>
                     </div>
-                    <div class="social">
-                        <h3 class="footer-menu-title">Social</h3>
-                        <i data-feather="facebook"></i>
-                        <i data-feather="twitter"></i>
-                        <i data-feather="instagram"></i>
-                        <i data-feather="linkedin"></i>
+                    <div class="bottom-info">
+                        <div class="art-type">
+                            <p>Art Type</p>
+                            <label>
+                                <input type="radio" name="Art Type" value="AI Generated" required>
+                                AI Generated
+                            </label>
+                            <label>
+                                <input type="radio" name="Art Type" value="Orginal Art" required>
+                                Original Art
+                            </label>
+                        </div>
+                        <div class="tag">
+                            <p>Tag</p>
+                            <input type="text" placeholder="Enter tags for your work" required>
+                        </div>
                     </div>
+                    <button class="publish-button">Publish</button>
                 </div>
             </div>
-                <div class="footer-copyright">
-                    <p>© 2025 Picverse Community. All rights reserved.</p>
-                    <p>Made with ❤️ by ExWhyZed</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="CSS/Image/logo/Picverse Logo with Text.png" width="168px" height="52px" alt="">
+            </div>
+            <div class="footer-menu">
+                <div class="legal">
+                    <h3 class="footer-menu-title">Legal</h3>
+                    <p>Terms of use</p>
+                    <p>Lisence agreement</p>
+                    <p>Privacy policy</p>
+                    <p>Copyright information</p>
+                    <p>Cookies policy</p>
+                    <p>Cookies setting</p>
                 </div>
-            </section>
+                <div class="information">
+                    <h3 class="footer-menu-title">information</h3>
+                    <p>About us</p>
+                    <p>Events</p>
+                    <p>Search trends</p>
+                    <p>Submit content</p>
+                    <p>Blog</p>
+                    <p>Careers</p>
+                </div>
+                <div class="support">
+                    <h3 class="footer-menu-title">Support</h3>
+                    <p>FAQ</p>
+                    <p>Contact</p>
+                </div>
+                <div class="social">
+                    <h3 class="footer-menu-title">Social</h3>
+                    <i data-feather="facebook"></i>
+                    <i data-feather="twitter"></i>
+                    <i data-feather="instagram"></i>
+                    <i data-feather="linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 Picverse Community. All rights reserved.</p>
+            <p>Made with ❤️ by ExWhyZed</p>
+        </div>
+    </section>
 
-        <!-- Feather Icons -->
-        <script>feather.replace();</script>
+    <!-- Feather Icons -->
+    <script>feather.replace();</script>
 
-        <!-- Java Script -->
-         <script src="JS/Home.js"></script>
-    </body>
+    <!-- Java Script -->
+    <script src="JS/Home.js"></script>
+</body>
+
 </html>

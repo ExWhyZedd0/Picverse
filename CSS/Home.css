@@ -21,7 +21,7 @@ body {
     align-items: center;
     font-family: "Newake";
     color: white;
-    background-color:#141619;
+    background-color: #141619;
 }
 
 /* Hero Section */
@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    height: 100vh;
 }
 
 .hero-title {
@@ -38,6 +38,10 @@ body {
     letter-spacing: 4px;
     text-align: center;
     color: #fff;
+}
+
+.hero-title span {
+    color: #0073f6;
 }
 
 .hero-content {
@@ -61,7 +65,8 @@ body {
 .card-item {
     background-color: #fff;
     border-radius: 24px;
-    text-align: left;;
+    text-align: left;
+    ;
     transition: transform 0.2s;
 }
 
@@ -85,7 +90,7 @@ body {
 }
 
 .card-item .card-info {
-    color : #000;
+    color: #000;
 }
 
 .card-item .item-name {
@@ -120,7 +125,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 240px;
+    margin-top: 10px;
 }
 
 .tag-title {
@@ -181,8 +186,8 @@ body {
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     width: 95%;
     padding: 20px;
     border-top: #fff 1px solid;
@@ -200,7 +205,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    max-width: 1200px; 
+    max-width: 1200px;
 }
 
 .footer-logo img {
@@ -216,6 +221,7 @@ body {
 .footer-menu p {
     transition: 0.2s ease-in-out;
 }
+
 .footer-menu p:hover {
     color: #0073f6;
 }
@@ -227,7 +233,7 @@ body {
     letter-spacing: 2px;
 }
 
-.footer-menu-title  {
+.footer-menu-title {
     color: #fff;
     font-size: 20px;
     margin-bottom: 10px;
@@ -300,14 +306,14 @@ body {
         flex-direction: column;
         gap: 20px;
     } */
-    /* .hero .hero-slideshow {
+/* .hero .hero-slideshow {
         position: relative;
         width: 260px;
         margin: 0 auto;
         overflow: hidden;
     } */
-    
-    /* .hero .hero-slideshow .hero-slideshow-item {
+
+/* .hero .hero-slideshow .hero-slideshow-item {
         display: none;
         position: absolute;
         top: 0;

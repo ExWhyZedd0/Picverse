@@ -20,7 +20,7 @@ body {
     align-items: center;
     font-family: "Newake";
     color: white;
-    background-color:#141619;
+    background-color: #141619;
 }
 
 /* Hero Section */
@@ -36,6 +36,10 @@ body {
     font-size: 48px;
     letter-spacing: 4px;
     text-align: center;
+}
+
+.hero span {
+    color: #0073f6;
 }
 
 /* Forum Section */
@@ -130,7 +134,7 @@ body {
     letter-spacing: 1px;
 }
 
-.profile-picture img{
+.profile-picture img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -285,7 +289,7 @@ body {
     align-items: center;
 }
 
-.content-profile-picture img{
+.content-profile-picture img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -345,7 +349,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    width:100%;
+    width: 100%;
 }
 
 .post-footer button {
@@ -401,8 +405,8 @@ body {
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     width: 95%;
     padding: 20px;
     border-top: #fff 1px solid;
@@ -420,7 +424,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    max-width: 1200px; 
+    max-width: 1200px;
 }
 
 .footer-logo img {
@@ -436,6 +440,7 @@ body {
 .footer-menu p {
     transition: 0.2s ease-in-out;
 }
+
 .footer-menu p:hover {
     color: #0073f6;
 }
@@ -447,7 +452,7 @@ body {
     letter-spacing: 2px;
 }
 
-.footer-menu-title  {
+.footer-menu-title {
     color: #fff;
     font-size: 20px;
     margin-bottom: 10px;

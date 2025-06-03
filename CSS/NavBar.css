@@ -38,12 +38,12 @@
 
 .vertical-line {
     border-left: 1px solid #fff;
-    height: 57px; 
-    position: absolute; 
+    height: 57px;
+    position: absolute;
     left: 198px;
 }
 
-.nav-bar .nav-bar-menu .home-button{
+.nav-bar .nav-bar-menu .home-button {
     display: none;
 }
 
@@ -70,6 +70,7 @@
     transition: 0.3s;
 
 }
+
 .nav-bar .nav-bar-menu a:hover {
     color: #0073f6;
 }
@@ -78,7 +79,7 @@
     color: white;
     size: 20px;
     align-items: center;
-    display:inline-flex;
+    display: inline-flex;
 }
 
 .nav-bar .nav-bar-extra .login-button {
@@ -89,7 +90,7 @@
     border: 2px solid #0073f6;
     padding: 10px 32px;
     border-radius: 50px;
-    background-color: rgb(0, 115, 246, 0.1) ;
+    background-color: rgb(0, 115, 246, 0.1);
     transition: 0.3s;
 }
 
@@ -130,7 +131,7 @@
         display: none;
     }
 
-    .nav-bar .nav-bar-extra .signup-button{
+    .nav-bar .nav-bar-extra .signup-button {
         display: none;
     }
 
@@ -139,10 +140,10 @@
     }
 
     #hamburger-menu {
-        display: inline-flex;       
+        display: inline-flex;
         margin-right: 32px;
     }
-    
+
     .nav-bar .nav-bar-menu {
         position: absolute;
         top: 100%;
@@ -156,7 +157,7 @@
         align-items: flex-start;
         padding: 20px;
     }
-    
+
     .nav-bar .nav-bar-menu a {
         display: block;
         color: #141619;
@@ -230,11 +231,12 @@
 
 /* Mobile Phone */
 @media (max-width: 450px) {
-     html {
+    html {
         font-size: 50%;
         width: 450px;
     }
-    #hamburger-menu {     
+
+    #hamburger-menu {
         margin-right: 38px;
     }
 }
